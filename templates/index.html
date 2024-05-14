@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<body>
+    <h1>Enter the Details</h1>
+    <form action="/student_details" method="post">
+        <label>
+            <input type="radio" name="search_type" value="student_id"> Student ID
+            <input type="text" name="student_id">
+        </label>
+        <label>
+            <input type="radio" name="search_type" value="course_id"> Course ID
+            <input type="text" name="course_id">
+        </label>
+        <!--<input type="text" name="student_id">-->
+        <!--<input type="text" name="course_id">-->
+        <!-- Ensure the name attribute is "student_id" -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

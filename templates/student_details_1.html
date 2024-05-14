@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+</head>
+<body>
+    <h1>Course Details</h1>
+    <table border="1" id="course-details-table">
+        <tr>
+            <th>Average Marks</th>
+            <th>Maximum Marks</th>
+        </tr>
+        <tr>
+            <td>{{average}}</td>
+            <td>{{maxx}}</td>
+        </tr>
+    </table>
+    <img src="{{url_for('static',filename='image.png')}}" alt="Histogram">
+    <br>
+    <br>
+    <a href="/">Go Back</a>
+</body>
+</html>
